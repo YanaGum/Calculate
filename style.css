@@ -1,0 +1,56 @@
+body {
+    background-color: aqua;
+    user-select: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(65, 65, 65);
+    padding: 4px;
+    grid-row: gap 4px;
+    height: 550px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.butt {
+    background-color: rgb(219, 217, 217);
+    border: 1px solid rgb(155, 154, 154);
+    padding: 20px;
+    display: flex;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    grid-column: 1/-1;
+    background-color: rgb(65, 65, 65) !important;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    text-align: right;
+    height: 60px;
+    background-color: rgb(65, 65, 65) !important;
+    color: white;
+}
+
+.orange {
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+
+.two-1colum {
+    grid-column: 2/-2;
+}
+
+.two-2colum {
+    grid-column: 1/-3;
+}
